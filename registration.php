@@ -97,22 +97,22 @@ if (isset($_POST['submit'])) {
 
     	<div class="from-input">
 	        <label for="name">Name:</label>
-	        <input type="text" id="name" name="name" required>
+	        <input type="text" id="name" name="name" required placeholder="Enter Your Name">
     	</div>
         
         <div class="from-input">
 	        <label for="email">Email:</label>
-	        <input type="email" id="email" name="email" required>
+	        <input type="email" id="email" name="email" required placeholder="Enter Your Email">
     	</div>
         
         <div class="from-input">
 	        <label for="password">Password:</label>
-	        <input type="password" id="password" name="password" required>
+	        <input type="password" id="password" name="password" required placeholder="Enter Password">
     	</div>
         
         <div class="from-input">
 	        <label for="confirm_password">Confirm Password:</label>
-	        <input type="password" id="confirm_password" name="confirm_password" required>
+	        <input type="password" id="confirm_password" name="confirm_password" required placeholder="Confirm Password">
     	</div>
         
         <button type="submit" name="submit">Register</button>
